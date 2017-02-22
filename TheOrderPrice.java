@@ -9,7 +9,7 @@ public class TheOrderPrice {
      * Input price data
      */
     public String getPrice() {
-        TheInputer in = new TheInputer();
+        TheInputter in = new TheInputter();
         System.out.print("Please, input order price:");
         String price = in.inputText();
         return price;

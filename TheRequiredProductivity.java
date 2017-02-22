@@ -8,7 +8,7 @@ public class TheRequiredProductivity {
      * Input required productivity data
      */
     public String getProductivity() {
-        TheInputer in = new TheInputer();
+        TheInputter in = new TheInputter();
         System.out.print("Please, input the required productivity:");
         String req_productivity = in.inputText();
         return req_productivity;

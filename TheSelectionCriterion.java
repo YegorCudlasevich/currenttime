@@ -8,7 +8,7 @@ public class TheSelectionCriterion {
      * Choose one criterion
      */
     public String getCriterion() {
-        TheInputer in = new TheInputer();
+        TheInputter in = new TheInputter();
         System.out.print("Please, change one of three selection criterion: " + "\n"
                           + "1. Maximum efficiency within the balance."  + "\n"
                           + "2. The minimum cost for a fixed productivity." + "\n"
